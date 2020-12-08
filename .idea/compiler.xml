@@ -8,21 +8,21 @@
         <outputRelativeToContentRoot value="true" />
         <module name="qinjin-shop-portal-web" />
         <module name="qinjin-shop-service-api-pay" />
+        <module name="qinjin-shop-service-api-weixin" />
         <module name="qinjin-shop-service-search" />
-        <module name="qinjin-shop-service-api-member" />
         <module name="qinjin-shop-basics-springcloud-zuul" />
         <module name="qinjin-shop-service-weixin" />
         <module name="qinjin-shop-basics-springcloud-eureka" />
         <module name="qinjin-shop-service-api-search" />
-        <module name="qinjin-shop-portal-cms" />
-        <module name="qinjin-shop-service-member" />
+        <module name="qinjin-shop-service-api-sso" />
         <module name="qinjin-shop-service-spike" />
         <module name="qinjin-shop-basics-xuxueli-xxljob" />
-        <module name="qinjin-shop-service-api-sso" />
-        <module name="qinjin-shop-service-sso" />
+        <module name="qinjin-shop-portal-cms" />
         <module name="qinjin-shop-portal-search" />
-        <module name="qinjin-shop-basics-codingapi-lcn" />
         <module name="qinjin-shop-service-api-spike" />
+        <module name="qinjin-shop-basics-codingapi-lcn" />
+        <module name="qinjin-shop-service-member" />
+        <module name="qinjin-shop-basics-codingapi-ZipKin" />
         <module name="qinjin-shop-portal-spike" />
         <module name="qinjin-shop-service-pay" />
         <module name="qinjin-shop-service-order" />
@@ -32,8 +32,8 @@
         <module name="qinjin-shop-service-api-order" />
         <module name="qinjin-shop-common-core" />
         <module name="qinjin-shop-portal-sso" />
-        <module name="qinjin-shop-basics-codingapi-ZipKin" />
-        <module name="qinjin-shop-service-api-weixin" />
+        <module name="qinjin-shop-service-sso" />
+        <module name="qinjin-shop-service-api-member" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

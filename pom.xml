@@ -14,9 +14,40 @@
         <module>qinjin-shop-service-impl</module>
         <module>qinjin-shop-common</module>
         <module>qinjin-shop-portal</module>
-        <module>qinjin-shop-basics</module>
-        <module>qinjin-shop-portal-cms</module>
     </modules>
+
+    <distributionManagement>
+        <repository>
+            <!--此名称要和.m2/settings.xml中设置的ID一致 -->
+            <id>maolaoda</id>
+            <url>http://192.168.72.129:8081/repository/test-release/</url>
+        </repository>
+    </distributionManagement>
+
+    <build>
+        <plugins>
+            <!--发布代码Jar插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.7</version>
+            </plugin>
+            <!--发布源码插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>2.2.1</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 
 </project>
